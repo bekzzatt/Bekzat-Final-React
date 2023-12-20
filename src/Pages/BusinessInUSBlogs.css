@@ -1,0 +1,69 @@
+:root {
+  --font-font-stack-retina: "Retina", "Helvetica", "Arial", sans-serif;
+}
+.BusinessInUSBlogsContainer {
+  padding: 20px;
+  text-align: center;
+}
+.BusinessInUSBlogsContainer h2 {
+  margin-bottom: 20px;
+}
+
+.BusinessInUSBlogsContainer .blogs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.BusinessInUSBlogsContainer .blog-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 200px;
+  font-family: var(--font-font-stack-retina);
+}
+
+.BusinessInUSBlogsContainer .blog-card img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.BusinessInUSBlogsContainer .blog-details {
+  padding: 15px;
+}
+
+.BusinessInUSBlogsContainer h3 {
+  margin-bottom: 10px;
+  color: #333;
+  cursor: pointer;
+}
+.BusinessInUSBlogsContainer h3:hover {
+  color: #007bff;
+}
+
+.BusinessInUSBlogsContainer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.BusinessInUSBlogsContainer a:hover {
+  text-decoration: underline;
+}
+
+.BusinessInUSBlogsContainer .default-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: #eee;
+  color: #888;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.BusinessInUSBlogsContainer .default-image:before {
+  content: "No Image";
+}

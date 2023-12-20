@@ -1,0 +1,14 @@
+.AboutMePageContainer {
+  padding: 20px;
+  text-align: center;
+}
+
+.AboutMePageContainer h2 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.AboutMePageContainer p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}

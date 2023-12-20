@@ -1,0 +1,93 @@
+:root {
+  --font-font-stack-retina: "Retina", "Helvetica", "Arial", sans-serif;
+}
+.HomePageContainer {
+  padding: 20px;
+  text-align: center;
+}
+.HomePageContainer h2 {
+  margin-bottom: 20px;
+}
+.HomePageContainer .search-container {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomePageContainer input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 60%;
+}
+
+.HomePageContainer button {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.HomePageContainer button:hover {
+  background-color: #0056b3;
+}
+.HomePageContainer .blogs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.HomePageContainer .blog-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 200px;
+  font-family: var(--font-font-stack-retina);
+}
+
+.HomePageContainer .blog-card img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.HomePageContainer .blog-details {
+  padding: 15px;
+}
+
+.HomePageContainer h3 {
+  margin-bottom: 10px;
+  color: #333;
+  cursor: pointer;
+}
+.HomePageContainer h3:hover {
+  color: #007bff;
+}
+
+.HomePageContainer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.HomePageContainer a:hover {
+  text-decoration: underline;
+}
+
+.HomePageContainer .default-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: #eee;
+  color: #888;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.HomePageContainer .default-image:before {
+  content: "No Image";
+}
